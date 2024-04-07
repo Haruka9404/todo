@@ -1,0 +1,260 @@
+.success-message {
+    font-size: 13px;
+    font-weight: bold;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    background-color: #d1e7dd;
+    color: #0f5132;
+    border: solid 1px #badbcc;
+    padding: 0 15px;
+}
+
+.danger-message {
+    font-size: 13px;
+    font-weight: bold;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    background-color: #f8d7da;
+    color: #842029;
+    border: solid 1px #f5c2c7;
+    padding: 0 15px;
+    }
+
+        /* .todo__alert--success {
+            padding: 10px 30px;
+            border-color: #badbcc;
+            background-color: #d1e7dd;
+            color: #0f5132;
+        }
+    
+        .todo__alert--danger {
+            padding: 10px 0;
+            border-color: #f5c2c7;
+            background-color: #f8d7da;
+            color: #842029;
+        }
+    
+        .todo__alert--danger ul {
+            margin: 0;
+        } */
+
+.make-todo {
+    margin-top: 40px;
+    padding: 0 15%;
+}
+
+.make-todo__content {
+    display: flex;
+    justify-content: flex-start;
+    width: 100%;
+}
+
+.make-todo__content__form {
+    /* display: flex;
+    justify-content: space-between; */
+    width: 100%;
+    /* height: 40px; */
+}
+
+.make-todo__content__text {
+    width: 50%;
+    height: 40px;
+    border: 1px solid #ddd;
+}
+
+.make-todo__content__category {
+    margin: 0 5px;
+    width: 20%;
+    height: 40px;
+    border: 1px solid #ddd;
+    border-radius: 3px;
+    cursor: pointer;
+}
+
+.make-todo__content__button {
+    padding: 10px;
+    margin-left: 40px;
+    width: 20%;
+    height: 40px;
+    border: none;
+    border-radius: 3px;
+    background: #000;
+    color: #fff;
+    cursor: pointer;
+}
+
+.search-todo {
+    padding: 0 15%;
+}
+
+.search-todo__content {
+    display: flex;
+    justify-content: flex-start;
+    width: 100%;
+}
+
+.search-todo__content__form {
+    width: 100%;
+}
+
+.search-todo__content__text {
+    width: 50%;
+    height: 40px;
+    border: 1px solid #ddd;
+}
+
+.search-todo__content__category {
+    margin: 0 5px;
+    width: 20%;
+    height: 40px;
+    border: 1px solid #ddd;
+    border-radius: 3px;
+    cursor: pointer;
+}
+
+.search-todo__content__button {
+    padding: 10px;
+    margin-left: 40px;
+    width: 20%;
+    height: 40px;
+    border: none;
+    border-radius: 3px;
+    background: #000;
+    color: #fff;
+    cursor: pointer;
+}
+
+/*
+.todo-list {
+    padding: 0 12%;
+}
+
+ul {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    list-style: none;
+    padding: 0;
+}
+
+li {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 13px;
+    color: rgb(128, 128, 128);
+    width: 100%;
+    border-bottom: solid lightgray 1px;
+    font-weight: bold;
+    padding: 10px;
+}
+
+li a {
+
+    font-size: 20px;
+}
+
+.todo-list__content {
+    display: flex;
+    justify-content: flex-start;
+}
+
+span {
+    background-color: rgb(183, 1, 144);
+    width: 60px;
+    display: block;
+    padding: 10px;
+    text-align: center;
+    color: #fff;
+    margin: 5px 10px;
+    font-weight: lighter;
+}
+
+.todo-content__update {
+    background-color: #0000ff;
+}
+
+.todo-content__delete {
+    background-color: #ff0000;
+} */
+
+.todo-table {
+    margin: 30px auto;
+    width: 70%;
+    text-align: left;
+}
+
+.todo-table__inner {
+    width: 100%;
+}
+
+.todo-table__row {
+    border-bottom: 1px solid #ddd;
+}
+
+.todo-table__header {
+    padding: 12px;
+    width: 20%;
+    text-align: left;
+    font-weight: bold;
+}
+
+.todo-table__item:first-of-type {
+    padding: 12px;
+    width: 90%;
+}
+
+.update-form {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.update-form__item {
+    width: 80%;
+    line-height: 50%;
+}
+
+.update-form__item-input {
+    width: 100%;
+    outline: none;
+    border: none;
+}
+
+/* .update-form__item {
+    update-form__item-p {
+    update-form__item-category {
+    width: 100%;
+    outline: none;
+    border: none;
+} */
+
+.update-form__button {
+    width: 50px;
+}
+
+.update-form__button-submit {
+    padding: 5px;
+    width: 100%;
+    border: none;
+    border-radius: 3px;
+    background: #0000ff;
+    color: #fff;
+    cursor: pointer;
+}
+
+.delete-form__button {
+    width: 50px;
+}
+
+.delete-form__button-submit {
+    padding: 5px;
+    width: 100%;
+    border: none;
+    border-radius: 3px;
+    background: #ff0000;
+    color: #fff;
+    cursor: pointer;
+}

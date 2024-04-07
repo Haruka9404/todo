@@ -1,0 +1,33 @@
+header {
+    height: 70px;
+    background-color: #000;
+    display: flex;
+    justify-content: space-between;
+}
+
+.header__inner{
+    width:100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 10%;
+}
+
+/* .header-content{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+} */
+
+.header__logo {
+    font-size: 24px;
+    text-decoration: none;
+    color: #fff;
+}
+
+.header-nav__link {
+    /* height:100%; */
+    text-align: center;
+    text-decoration: none;
+    color: #fff;
+}
